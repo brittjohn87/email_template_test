@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+body {
+	Margin: 0!important;
+	padding: 15px;
+	background-color: #FFF;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+}
+.wrapper-inner {
+	width: 100%;
+	background-color: #eee;
+	max-width: 670px;
+	Margin: 0 auto;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #727f80;
+}
+.outer-table {
+	width: 100%;
+	max-width: 670px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+td {
+    padding: 0;
+}
+.header {
+    background-color: #C2C1C1;
+}
+p {
+    Margin:0;
+}
+.header p {
+    text-align: center;
+    padding: 1%;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+/*--- End Outer Table 1 --*/
+.main-table-first {
+	width: 100%;
+	max-width: 610px;
+	Margin: 0 auto;
+	background-color: #FFF;
+	/* border-radius: 6px; */
+	margin-top: 25px;
+  box-shadow: 1px 3px 3px slategrey;
+}
+/*--- Start Two Column Sections --*/
+.two-column {
+    text-align: center;
+    font-size: 0;
+    padding: 5px 0 10px 0;
+}
+.two-column .section {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two-column .content {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+.content {
+    width: 100%;
+    padding-top: 20px;
+}
+.center {
+    display: table;
+    Margin: 0 auto;
+}
+img {
+    border: 0;
+}
+img.logo {
+    float: left;
+    Margin-left: 5%;
+    max-width: 100px!important;
+}
+#callout {
+    float: right;
+    Margin: 4% 5% 2% 0;
+    height: auto;
+    overflow: hidden;
+}
+#callout img {
+    max-width: 20px;
+}
+
+.green_txt {
+  color: green;
+}
+
+.emoji_btm{
+    text-align: center!important;
+    font-size: 25px!important;
+}
+
+.vertical_line {
+  border-right: 1px solid white;
+  height: 150px;
+}
+
+.social {
+    list-style-type: none;
+    Margin-top: 1%;
+    padding: 0;
+}
+.social li {
+    display: inline-block;
+}
+.social li img {
+    max-width: 15px;
+    Margin-bottom: 0;
+    padding-bottom: 0;
+}
+/*--- Start Outer Table Banner Image, Text & Button --*/
+.image img {
+    width: 100%;
+    max-width: 670px;
+    height: auto;
+}
+.main-table {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 3px slategrey;
+    /* border-radius: 6px; */
+}
+.one-column .inner-td {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.inner-td {
+    padding: 10px;
+}
+
+.inner-td p {
+  text-align: justify;
+}
+
+.inner-td .h2 {
+  text-align: center;
+}
+.h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px;
+    color: #4A4A4A;
+}
+p.center {
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px;
+}
+.button-holder-center {
+    text-align: center;
+    Margin: 5% 2% 3% 0;
+}
+.button-holder {
+    float: right;
+    Margin: 5% 0 3% 0;
+}
+.btn-buy {
+    font-size: 15px;
+    font-weight: 600;
+    background: green;
+    color: #FFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 5px;
+}
+
+.btn-sell {
+    font-size: 15px;
+    font-weight: 600;
+    background: red;
+    color: #FFF;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 5px;
+}
+/*--- Start Two Column Image & Text Sections --*/
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding: 10px 0;
+}
+/*--- Start 3 Column Image & Text Section --*/
+.outer-table-2 {
+	width: 100%;
+	max-width: 670px;
+	margin: 22px auto;
+	background-color: #eee;
+
+}
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding: 10px 0 30px 0;
+}
+.three-column .section {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.three-column .content {
+    font-size: 16px;
+    line-height: 20px;
+}
+.three-column img {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+}
+/* .outer-table-2 p {
+	margin-top: 6px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+} */
+/*--- Start Two Column Article Section --*/
+.outer-table-3 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px auto;
+    background-color: #eee;
+}
+.h3 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	Margin-bottom: 8px;
+	color: #4A4A4A;
+}
+/*--- Start Bottom One Column Section --*/
+.inner-bottom {
+	padding: 22px;
+}
+.h1 {
+    text-align: center!important;
+    font-size: 25px!important;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px 0 20px 0;
+    color: #4A4A4A;
+}
+.inner-bottom p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+/*--- Start Footer Section --*/
+.footer {
+	width: 100%;
+	background-color: #eee;
+	Margin: 0 auto;
+    color: #FFF;
+}
+.footer  img {
+	max-width: 135px;
+	Margin: 0 auto;
+	display: block;
+	padding: 4% 0 1% 0;
+}
+p.footer {
+	text-align: center;
+	color: #FFF!important;
+	line-height: 30px;
+	padding-bottom: 4%;
+}
+
+#footer-line {
+    color: darkslategrey;
+    width: 550px;
+}
+
+.outsoleLogo {
+  height: 75px;
+  width: auto;
+}
+/*--- Media Queries --*/
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.two-column .column, .three-column .column {
+		max-width: 100%!important;
+	}
+	.two-column img {
+		width: 100%!important;
+	}
+	.three-column img {
+		max-width: 60%!important;
+	}
+}
+@media screen and (min-width: 401px) and (max-width: 400px) {
+
+	.two-column .column {
+		max-width: 50%!important;
+	}
+	.three-column .column {
+		max-width: 33%!important;
+}
+}
+@media screen and (max-width:768px) {
+img.logo {
+	float:none !important;
+	margin-left:0% !important;
+	max-width: 200px!important;
+}
+
+#callout {
+	float:none !important;
+	margin: 0% 0% 0% 0;
+	height: auto;
+	text-align:center;
+	overflow: hidden;
+}
+#callout img {
+    max-width:26px !important;
+}
+.two-column .section {
+	width: 100% !important;
+	max-width: 100% !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.two-column img {
+	width: 100% !important;
+ 	height: auto !important;
+}
+img.img-responsive {
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+}
+.content {
+	width: 100%;
+	padding-top:0px !important;
+}
+}
+</style>
+ </head>
+<body>
+  <div class="wrapper">
+    <div class="wrapper-inner">
+    	<table class="outer-table">
+    		<tr>
+    			<td class="header">
+    				<p><a href="index.html#">Click to view this email in your browser</a></p>
+    			</td>
+    		</tr>
+      </table>
+      <table class="main-table-first">
+        <tr>
+          <td class="two-column">
+            <div class="section">
+              <table width="100%">
+                <tr>
+                  <td class="inner-td">
+                    <table class="content">
+                      <tr>
+                        <td align="center">
+                          <img src="stockxlogo.png" class="logo"> <!---Insert StockX Logo --->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div> <!--- End of Logo and Social Section -->
+            <div class="section">
+              <table width="100%">
+                <tr>
+                  <td class="inner-td">
+                    <table class="content">
+                      <tr>
+                        <td>
+                          <div id="callout">
+                            <ul class="social">
+                              <li><a href="index.html#" target="_blank"><img src="facebook-square-brands.svg"></a></li>
+                              <li><a href="index.html#" target="_blank"><img src="instagram-brands.svg"></a></li>
+                              <li><a href="index.html#" target="_blank"><img src="twitter-square-brands.svg"></a></li>
+                              <li><a href="index.html#" target="_blank"><img src="youtube-square-brands.svg"></a></li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <table class="main-table">
+    		<tr>
+    			<td class="one-column">
+    				<table width="100%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <img class="outsoleLogo" src="stockx_X.png" />
+                  </div>
+                </td>
+              </tr>
+    					<tr>
+    				   <td class="inner-td">
+    					   <p class="h2"><u>THE OUTSOLE</u> <br /> <span class="h3">WHERE SNEAKERS MEET THE REST OF THE WORLD</span></p>
+    						 <p class="h3">Summer Collabs are here</p>
+                 <p>Collaborations seem to always bring much needed energy to things and this week we've got some good ones releasing this week.</p>
+                 <br />
+                 <p>So, while we anxiously await &#x1F634; the <span class="green_txt">rumored rematch</span> between Floyd Mayweather and Manny Pacquiao, and simultaneously try to make sense of the Kawhi Leonard for Demar DeRozan and Danny Green deal, let's get right into some of the new releases.</p>
+    					 </td>
+    					</tr>
+    				</table>
+    			</td>
+    		</tr> <!--- End Heading, Paragraph & Button Section -->
+        </table> <!--- End Main Table -->
+        <table class="main-table">
+          <tr>
+            <td class="two-column">
+              <div class="section">
+                <table width="100%">
+                  <tr>
+                    <td class="inner-td">
+                      <table class="content">
+                        <tr>
+                          <td align="center">
+                            <img src="awok.jpg"> <!---Insert StockX Logo --->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="section">
+                <table width="100%">
+                  <tr>
+                    <td class="inner-td">
+                      <table class="content">
+                        <tr>
+                          <td align="center">
+                            <p class="h3">
+                              Vogue x Air Jordan 1
+                            </p>
+                            <p>
+                              Style icon and infamous Editor-In-Chief of Vogue, Anna Wintour, gave her stamp of approval on this collab. Bids are well above retail going into the official release date.
+                            </p>
+                            <button class="button-holder btn-buy">Shop Now</button>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div> <!--- End First Column of Two Columns -->
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="50%" valign="top">
+                        <![endif]-->
+
+          </td>
+            </tr> <!--- End Two Column Section -->
+          </table>
+          <table class="main-table">
+            <tr>
+              <td class="two-column">
+                <div class="section">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner-td">
+                        <table class="content">
+                          <tr>
+                            <td align="center">
+                              <img src="parra.jpg">
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="section">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner-td">
+                        <table class="content">
+                          <tr>
+                            <td align="center">
+                              <p class="h3">
+                                Parra Is Back With New Air Max Drops &#x1F3A8;
+                              </p>
+                              <p>The Dutch artist Parra is, arguably responsible for some of the most sought after Air Max designs of all time. He's back with a new trio of new releases that are already selling for 2-3 times retail. The Friends and Family has Bids waiting as high as $2500! Have you ever seen an Air Max 1 without a Swoosh?</p>
+                              <button class="button-holder btn-sell">Sell Now</button>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div> <!--- End First Column of Two Columns -->
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td><td width="50%" valign="top">
+                          <![endif]-->
+
+            </td>
+              </tr> <!--- End Two Column Section -->
+            </table>
+            <table class="main-table">
+              <tr>
+                <td class="two-column">
+                  <div class="section">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner-td">
+                          <table class="content">
+                            <tr>
+                              <td align="center">
+                                <img src="pureMoney1.jpg">
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="section">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner-td">
+                          <table class="content">
+                            <tr>
+                              <td align="center">
+                                <p class="h3">
+                                  Pure White 3s For Below Retail
+                                </p>
+                                <p>The newest retro Jordan lands this week in the form of the Pure White Jordan 3. The icy blue outsole on this summer-ready colorway adds just enough to make it subtle.</p>
+                                <button class="button-holder btn-buy">Shop Now</button>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div> <!--- End First Column of Two Columns -->
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td><td width="50%" valign="top">
+                            <![endif]-->
+
+              </td>
+                </tr> <!--- End Two Column Section -->
+              </table>
+          <table class="outer-table-2">
+    			<tr>
+    				<td class="three-column">
+              <p class="h1">More News</p>
+    					<div class="section vertical_line">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content">
+    										<tr>
+    											<td>
+    												<p class="emoji_btm">&#x1F4C8;</p>
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text">
+    												<p class="center green_txt">Pharrell's New Adidas</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End First Column of Three Columns -->
+    					<div class="section vertical_line">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content">
+    										<tr>
+    											<td>
+    												<p class="emoji_btm">&#x1F577;</p>
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text">
+    												<p class="center green_txt">Spiderman Nike Air VaporMax</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End Second Column of Three Columns -->
+    					<div class="section">
+    						<table width="100%">
+    							<tr>
+    								<td class="inner-td">
+    									<table class="content">
+    										<tr>
+    											<td>
+    												<p class="emoji_btm">&#x1F525;</p>
+    											</td>
+    										</tr>
+    										<tr>
+    											<td class="text">
+    												<p class="center green_txt">Shoe Palace's New Huaraches</p>
+    											</td>
+    										</tr>
+    									</table>
+    								</td>
+    							</tr>
+    						</table>
+    					</div> <!--- End Third Column of Three Columns -->
+              <p class="h2">Stay Fresh! &#x270C;</p>
+              <p class="h3">Sincerely,<br />The Vibes Department at StockX</p>
+    				</td>
+    			</tr> <!--- End Three Column Section -->
+            </table>
+
+          <table class="outer-table-3">
+    			  <tr>
+    				  <td class="one-column">
+    					  <table width="100%">
+    						  <tr>
+    							 <td class="footer">
+                     <hr id="footer-line">
+    							   <p class="footer">Any questions? <span class"green_txg">Hit up our FAQs</span> or email us at <span class="green_txt">support@stockx.com</span><br>We're always hiring! <span class="green_txt">See the latest job openings.</span><br>Adjust your <span class="green_txt">email notifications.</span></p>
+    							 </td>
+    						 </tr>
+    					</table>
+    				</td>
+    			</tr>
+    		</table> <!--- End Main Table -->
+    	</div> <!--- End Wrapper Inner -->
+    </div> <!--- End Wrapper -->
+  <br>
+</body>
+</html>

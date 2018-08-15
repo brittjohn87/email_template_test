@@ -17,9 +17,17 @@ body {
 .wrapper-inner {
 	width: 100%;
 	background-color: #eee;
-	max-width: 670px;
+	max-width: 700px;
 	Margin: 0 auto;
 }
+
+.color-inner {
+  width: 100%;
+  max-width: 640px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
 table {
 	border-spacing: 0;
 	font-family: sans-serif;
@@ -35,7 +43,7 @@ td {
     padding: 0;
 }
 .header {
-    background-color: #C2C1C1;
+    background-color: #eee;
 }
 p {
     Margin:0;
@@ -48,18 +56,31 @@ p {
     text-transform: uppercase;
 }
 a {
-    color: #F1F1F1;
+    color: black;
     text-decoration: none;
 }
 /*--- End Outer Table 1 --*/
-.main-table-first {
+/* .main-table-first {
+  background-image: url(outsole.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 	width: 100%;
 	max-width: 610px;
 	Margin: 0 auto;
-	background-color: #FFF;
+	background-color: #FFF; */
 	/* border-radius: 6px; */
-	margin-top: 25px;
+	/* margin-top: 25px;
   box-shadow: 1px 3px 3px slategrey;
+} */
+
+.imgBanner {
+  /* background-image: url(outsole.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+  height: 100%;
+  width: 100%;
+  padding: 0px!important;
 }
 /*--- Start Two Column Sections --*/
 .two-column {
@@ -105,7 +126,7 @@ img.logo {
 }
 
 .green_txt {
-  color: green;
+  color: #509e2f;
 }
 
 .emoji_btm{
@@ -114,7 +135,7 @@ img.logo {
 }
 
 .vertical_line {
-  border-right: 1px solid white;
+  border-right: 1px solid #eee;
   height: 150px;
 }
 
@@ -142,11 +163,37 @@ img.logo {
     max-width: 610px;
     margin: 0 auto;
     background-color: #FFF;
-    border-bottom: 1px solid grey;
-    margin-bottom: 10px;
-    box-shadow: 1px 3px 3px slategrey;
+    margin-bottom: 20px;
+    /* border: .5px solid #7080904a; */
+    /* box-shadow: 2px 6px 8px slategrey; */
+    background-color: #ffffff;
+    border: solid 5px rgba(217, 217, 217, 0.1);
     /* border-radius: 6px; */
 }
+
+.main-table1 {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #FFF;
+  margin-bottom: 20px;
+}
+
+.main-table2 {
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  margin-bottom: 20px;
+  /* border-bottom: .5px solid #7080904a;
+  border-left: .5px solid #7080904a;
+  border-right: .5px solid #7080904a;
+  box-shadow: 2px 6px 8px slategrey; */
+  background-color: #ffffff;
+  border: solid 5px rgba(217, 217, 217, 0.1);
+}
+
 .one-column .inner-td {
     font-size: 16px;
     line-height: 20px;
@@ -188,7 +235,7 @@ p.center {
 .btn-buy {
     font-size: 15px;
     font-weight: 600;
-    background: green;
+    background-color: #509e2f;
     color: #FFF;
     text-decoration: none;
     padding: 9px 16px;
@@ -198,7 +245,7 @@ p.center {
 .btn-sell {
     font-size: 15px;
     font-weight: 600;
-    background: red;
+    background-color: #ff5a5f;
     color: #FFF;
     text-decoration: none;
     padding: 9px 16px;
@@ -218,7 +265,7 @@ p.center {
 	width: 100%;
 	max-width: 670px;
 	margin: 22px auto;
-	background-color: #eee;
+	background-color: #FFF;
 
 }
 .three-column {
@@ -300,7 +347,7 @@ p.footer {
 
 #footer-line {
     color: darkslategrey;
-    width: 550px;
+    width: 640px;
 }
 
 .outsoleLogo {
@@ -321,6 +368,10 @@ p.footer {
 	.three-column img {
 		max-width: 60%!important;
 	}
+
+  .vertical_line {
+    border-right: none;
+  }
 }
 @media screen and (min-width: 401px) and (max-width: 400px) {
 
@@ -374,6 +425,7 @@ img.img-responsive {
 <body>
   <div class="wrapper">
     <div class="wrapper-inner">
+      <div class="color-inner">
     	<table class="outer-table">
     		<tr>
     			<td class="header">
@@ -381,7 +433,7 @@ img.img-responsive {
     			</td>
     		</tr>
       </table>
-      <table class="main-table-first">
+      <!-- <table class="main-table-first">
         <tr>
           <td class="two-column">
             <div class="section">
@@ -391,14 +443,14 @@ img.img-responsive {
                     <table class="content">
                       <tr>
                         <td align="center">
-                          <img src="stockxlogo.png" class="logo"> <!---Insert StockX Logo --->
+                          <img src="stockxlogo.png" class="logo">
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
               </table>
-            </div> <!--- End of Logo and Social Section -->
+            </div>
             <div class="section">
               <table width="100%">
                 <tr>
@@ -423,31 +475,56 @@ img.img-responsive {
             </div>
           </td>
         </tr>
-      </table>
-      <table class="main-table">
+      </table> -->
+      <table class="main-table1">
     		<tr>
     			<td class="one-column">
     				<table width="100%">
-              <tr>
+              <!-- <tr>
                 <td>
                   <div align="center">
                     <img class="outsoleLogo" src="stockx_X.png" />
                   </div>
                 </td>
-              </tr>
+              </tr> -->
     					<tr>
-    				   <td class="inner-td">
-    					   <p class="h2"><u>THE OUTSOLE</u> <br /> <span class="h3">WHERE SNEAKERS MEET THE REST OF THE WORLD</span></p>
+    				   <td>
+                 <img class="imgBanner" src="outsole.jpg" />
+    					   <!-- <p class="h2"><u>THE OUTSOLE</u> <br /> <span class="h3">WHERE SNEAKERS MEET THE REST OF THE WORLD</span></p>
     						 <p class="h3">Summer Collabs are here</p>
                  <p>Collaborations seem to always bring much needed energy to things and this week we've got some good ones releasing this week.</p>
                  <br />
-                 <p>So, while we anxiously await &#x1F634; the <span class="green_txt">rumored rematch</span> between Floyd Mayweather and Manny Pacquiao, and simultaneously try to make sense of the Kawhi Leonard for Demar DeRozan and Danny Green deal, let's get right into some of the new releases.</p>
+                 <p>So, while we anxiously await &#x1F634; the <span class="green_txt">rumored rematch</span> between Floyd Mayweather and Manny Pacquiao, and simultaneously try to make sense of the Kawhi Leonard for Demar DeRozan and Danny Green deal, let's get right into some of the new releases.</p> -->
     					 </td>
     					</tr>
     				</table>
     			</td>
     		</tr> <!--- End Heading, Paragraph & Button Section -->
         </table> <!--- End Main Table -->
+        <table class="main-table2">
+          <tr>
+            <td class="one-column">
+              <div class="section">
+                <table width="100%">
+                  <tr>
+                    <td class="inner-td">
+                      <table class="content">
+                        <tr>
+                          <td align="center">
+                            <p class="h3">Summer Collabs are here</p>
+                            <p>Collaborations seem to always bring much needed energy to things and this week we've got some good ones releasing this week.</p>
+                            <br />
+                            <p>So, while we anxiously await &#x1F634; the <span class="green_txt">rumored rematch</span> between Floyd Mayweather and Manny Pacquiao, and simultaneously try to make sense of the Kawhi Leonard for Demar DeRozan and Danny Green deal, let's get right into some of the new releases.</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </table>
         <table class="main-table">
           <tr>
             <td class="two-column">
@@ -458,7 +535,7 @@ img.img-responsive {
                       <table class="content">
                         <tr>
                           <td align="center">
-                            <img src="awok.jpg"> <!---Insert StockX Logo --->
+                            <img src="https://stockx-assets.imgix.net/banners/awok.jpg?auto=compress,format"> <!---Insert StockX Logo --->
                           </td>
                         </tr>
                       </table>
@@ -479,7 +556,7 @@ img.img-responsive {
                             <p>
                               Style icon and infamous Editor-In-Chief of Vogue, Anna Wintour, gave her stamp of approval on this collab. Bids are well above retail going into the official release date.
                             </p>
-                            <button class="button-holder btn-buy">Shop Now</button>
+                            <div class="button-holder btn-buy">Shop Now</div>
                           </td>
                         </tr>
                       </table>
@@ -523,7 +600,7 @@ img.img-responsive {
                                 Parra Is Back With New Air Max Drops &#x1F3A8;
                               </p>
                               <p>The Dutch artist Parra is, arguably responsible for some of the most sought after Air Max designs of all time. He's back with a new trio of new releases that are already selling for 2-3 times retail. The Friends and Family has Bids waiting as high as $2500! Have you ever seen an Air Max 1 without a Swoosh?</p>
-                              <button class="button-holder btn-sell">Sell Now</button>
+                              <div class="button-holder btn-sell">Sell Now</div>
                             </td>
                           </tr>
                         </table>
@@ -567,7 +644,7 @@ img.img-responsive {
                                   Pure White 3s For Below Retail
                                 </p>
                                 <p>The newest retro Jordan lands this week in the form of the Pure White Jordan 3. The icy blue outsole on this summer-ready colorway adds just enough to make it subtle.</p>
-                                <button class="button-holder btn-buy">Shop Now</button>
+                                <div class="button-holder btn-buy">Shop Now</div>
                               </td>
                             </tr>
                           </table>
@@ -651,21 +728,106 @@ img.img-responsive {
     				</td>
     			</tr> <!--- End Three Column Section -->
             </table>
-
-          <table class="outer-table-3">
-    			  <tr>
-    				  <td class="one-column">
-    					  <table width="100%">
-    						  <tr>
-    							 <td class="footer">
-                     <hr id="footer-line">
-    							   <p class="footer">Any questions? <span class"green_txg">Hit up our FAQs</span> or email us at <span class="green_txt">support@stockx.com</span><br>We're always hiring! <span class="green_txt">See the latest job openings.</span><br>Adjust your <span class="green_txt">email notifications.</span></p>
-    							 </td>
-    						 </tr>
-    					</table>
-    				</td>
-    			</tr>
-    		</table> <!--- End Main Table -->
+            <table class="outer-table-3">
+      			<tr>
+      				<td class="one-column">
+      					<table width="100%">
+      						<tr>
+                    <td class="inner contents info-links" style="padding: 20px 0 30px 0;width: 100%;border-top: 1px solid #EEEEEE;font-size: 14px;color: #79828B;text-align: center;">
+    									<p class="info-line center" style="padding: 0;">Any Questions? <a href="https://help.stockx.com/" style="color: #41AD33 !important;text-decoration: none !important;"><font color="#41AD33"><strong>Hit up our FAQs</strong></font></a> or email us at <a href="mailto:support@stockx.com" style="color: #41AD33 !important;text-decoration: none !important;"><font color="#41AD33"><strong>support@stockx.com</strong></font></a></p>
+    									<p class="info-line last" style="padding: 0;">We're always hiring! <a href="https://stockx.com/jobs" style="color: #41AD33 !important;text-decoration: none !important;"><font color="#41AD33"><strong>See the latest job openings</strong></font></a></p>
+    									<p class="info-line center" style="padding: 0;">Adjust your <a href="https://stockx.com/settings" style="color: #41AD33 !important;text-decoration: none !important;"><font color="#41AD33"><strong>email notifications</strong></font></a></p>
+    								</td>
+      						</tr>
+      					</table>
+      				</td>
+      			</tr>
+            <td class="five-column logo-container" style="padding: 28px 16px 18px 16px;text-align: center;font-size: 0;background-color: #eee;">
+  						<div class="column5 first" style="width: 20%;display: inline-block;vertical-align: middle;">
+  							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;color: #A0A0A0;">
+  								<tr>
+  									<td class="inner5 contents5 vertical-link left" style="padding: 0 16px;font-size: 14px;text-align: right;">
+  										<a href="https://stockx.com/sneakers" style="color: #A0A0A0 !important;text-decoration: none !important;"><font color="#A0A0A0">SNEAKERS</font></a>
+  									</td>
+  								</tr>
+  							</table>
+  						</div>
+  						<div class="column5" style="width: 20%;display: inline-block;vertical-align: middle;">
+  							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+  								<tr>
+  									<td class="inner5 contents5 vertical-link left" style="padding: 0 16px;font-size: 14px;text-align: right;">
+  										<a href="https://stockx.com/streetwear" style="color: #A0A0A0 !important;text-decoration: none !important;"><font color="#A0A0A0">STREETWEAR</font></a>
+  									</td>
+  								</tr>
+  							</table>
+  						</div>
+  						<div class="column5" style="width: 20%;display: inline-block;vertical-align: middle;">
+  							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;text-align:center;">
+  								<tr>
+  									<td class="inner5 contents5" style="padding: 0 16px;font-size: 14px;">
+  										<a href="https://stockx.com" style="color: #41AD33 !important;text-decoration: none !important;"><img class="logo" src="https://stockx-assets.imgix.net/emails/price-drop/logo.png?auto=format,compress&trim=color&trimmd=1&w=219" alt="StockX" style="border: 0;width: 73px;" width="73"></a>
+  									</td>
+  								</tr>
+  							</table>
+  						</div>
+  						<div class="column5" style="width: 20%;display: inline-block;vertical-align: middle;">
+  							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+  								<tr>
+  									<td class="inner5 contents5 vertical-link right" style="padding: 0 16px;font-size: 14px;text-align: left;">
+  										<a href="https://stockx.com/watches" style="color: #A0A0A0 !important;text-decoration: none !important;"><font color="#A0A0A0">WATCHES</font></a>
+  									</td>
+  								</tr>
+  							</table>
+  						</div>
+  						<div class="column5 last" style="width: 20%;display: inline-block;vertical-align: middle;">
+  							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+  								<tr>
+  									<td class="inner5 contents5 vertical-link right" style="padding: 0 16px;font-size: 14px;text-align: left;">
+  										<a href="https://stockx.com/handbags" style="color: #A0A0A0 !important;text-decoration: none !important;"><font color="#A0A0A0">HANDBAGS</font></a>
+  									</td>
+  								</tr>
+  							</table>
+  						</div>
+  					</td>
+            <tr class="social-links-row" style="text-align: center;background-color: #eee;font-size: 0;">
+    					<td class="social-links-column-container" style="padding-top: 10px; padding-bottom: 25px;">
+    						<div class="social-link-column first" style="width: 33%;display: inline-block;text-align: right;">
+    							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+    								<center>
+    									<tr>
+    										<td style="padding: 0;">
+    											<a href="https://www.facebook.com/stockxdotcom" style="color: #41AD33 !important;text-decoration: none !important;"><img src="https://stockx-assets.imgix.net/emails/price-drop/facebook.png?auto=format,compress&trim=color&trimmd=1&w=60" alt="Facebook" style="border: 0;width: 20px;" width="20"></a>
+    										</td>
+    									</tr>
+    								</center>
+    							</table>
+    						</div>
+    						<div class="social-link-column" style="width: 33%;display: inline-block;">
+    							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+    								<center>
+    									<tr>
+    										<td style="padding: 0;">
+    											<a href="https://twitter.com/stockx" style="color: #41AD33 !important;text-decoration: none !important;"><img src="https://stockx-assets.imgix.net/emails/price-drop/twitter.png?auto=format,compress&trim=color&trimmd=1&w=60" alt="Twitter" style="border: 0;width: 20px;" width="20"></a>
+    										</td>
+    									</tr>
+    								</center>
+    							</table>
+    						</div>
+    						<div class="social-link-column last" style="width: 33%;display: inline-block;text-align: left;">
+    							<table width="100%" style="border-spacing: 0;font-family: ProximaNova-Regular, sans-serif;">
+    								<center>
+    									<tr>
+    										<td style="padding: 0;">
+    											<a href="https://www.instagram.com/stockx" style="color: #41AD33 !important;text-decoration: none !important;"><img src="https://stockx-assets.imgix.net/emails/price-drop/instagram.png?auto=format,compress&trim=color&trimmd=1&w=60" alt="Instagram" style="border: 0;width: 20px;" width="20"></a>
+    										</td>
+    									</tr>
+    								</center>
+    							</table>
+    						</div>
+    					</td>
+    				</tr>
+      	</table>
+      </div>
     	</div> <!--- End Wrapper Inner -->
     </div> <!--- End Wrapper -->
   <br>
